@@ -1,0 +1,195 @@
+.university {
+  padding: 30px 26px;
+  width: 80%;
+  &.create {
+    // padding-top: 40px;
+    .inputs__university {
+      .image {
+        position: relative;
+        background: linear-gradient(
+          180deg,
+          rgba(254, 231, 240, 0.33) 0%,
+          rgba(254, 231, 240, 0.68) 100%
+        );
+        border: 1px dashed #fa9ec3;
+        /* Stroke color */
+        width: 50%;
+
+        // border: 1px solid #dfdfdf;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        // padding: 50px;
+        // margin: 60px 0px;
+        .dlt_image_icon {
+          z-index: 1;
+          img {
+            margin: 12px;
+            max-width: 20px;
+          }
+        }
+        h3 {
+          font-family: Poppins;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 36px;
+          line-height: 54px;
+          /* identical to box height */
+
+          color: #000000;
+        }
+
+        .imageShow {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          z-index: -1;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        p {
+          color: #fa9ec3;
+        }
+        button {
+          position: static;
+          background: #fa9ec3;
+          border-radius: 10px;
+          border: none;
+          padding: 7px 20px;
+          color: white;
+          h4 {
+            font-size: 20px;
+          }
+        }
+      }
+      label {
+        display: block;
+        margin: 10px 0px;
+        font-family: Poppins;
+        /* font-style: normal; */
+        font-weight: bold;
+        font-size: 20px;
+        color: #000000;
+      }
+      input {
+        background: #ffffff;
+        border: 1px solid #dfdfdf;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 15px;
+        font-weight: bold;
+        &:focus {
+          outline: #ac0087;
+          // background-color: yellow;
+        }
+      }
+    }
+  }
+
+  .create_btn {
+    button {
+      &.smallBtn {
+        padding: 7px 10px;
+      }
+      transition: 0.5s;
+      background: linear-gradient(42deg, #e90d0d 0%, #7d00ac 100%);
+      border-radius: 5px;
+      padding: 10px 10px;
+      text-align: center;
+      border: none;
+      p {
+        margin: 0;
+        color: aliceblue;
+        font-weight: 600;
+      }
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+
+  .university__list {
+    background: #ffffff;
+    /* Gray/200 */
+
+    border: 1px solid #e4e7ec;
+    box-sizing: border-box;
+    padding: 25px;
+    /* Shadow/md */
+
+    box-shadow: 0px 4px 17px 8px rgb(16 24 40 / 10%),
+      0px 2px 4px -2px rgb(16 24 40 / 6%);
+    border-radius: 5px;
+    width: 100%;
+
+    .university_texts {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+      h3 {
+        font-weight: bold;
+        font-size: 30px;
+      }
+      .university_texts_input {
+        position: relative;
+        input {
+          // background: url(" ../../img/icons/search.svg") center left no-repeat;
+
+          width: 70%;
+          border: 1px solid #dcdcdc;
+          padding: 2px 59px;
+          border-radius: 5px;
+          font-size: 18px;
+          font-weight: bold;
+          background-position-x: 20px;
+        }
+        .image {
+          position: absolute;
+        }
+      }
+    }
+    .university__details {
+      h5 {
+        font-size: 20px;
+        font-weight: bold;
+      }
+      table {
+        // padding: 15px;
+        // background: #9e9e9e1a;
+        // width: 100%;
+        background: linear-gradient(42deg, #e90d0d00 0%, #7d00ac00 100%);
+
+        th,
+        td {
+          border: 1px solid #673ab7;
+
+          border-collapse: collapse;
+          padding: 20px;
+          font-size: 20px;
+
+          color: black;
+          .td_details {
+            column-gap: 20px;
+            align-items: flex-end;
+            h4 {
+              font-weight: bold;
+              font-size: 18px;
+            }
+            .image {
+              max-width: 40%;
+              img {
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+
+@media only screen and (max-width: 1200px) {
+  .university .university__list .university__details table th, .university .university__list .university__details table td {
+    padding: 15px;
+}
+}
+
+@media only screen and (max-width: 991px) {
+  .university {
+    width: 100%;
+}
+}
+
+@media only screen and (max-width: 767px) {
+  .university .university__list .university_texts .university_texts_input input {
+    width: 100%;
+}
+  .university .university__list .university_texts .university_texts_input {
+    width: 100%;
+}
+  .university .university__list .university_texts {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+.university .university__list .university__details table th .td_details, .university .university__list .university__details table td .td_details{
+  gap: 15px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+}
+
+@media only screen and (max-width: 575px){
+}
+
+@media only screen and (max-width: 440px) {
+  .cr__bt button p{
+    font-size: 11px !important;
+  }
+  .university .university__list {
+    padding: 10px;
+}
+}
+

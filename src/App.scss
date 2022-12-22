@@ -1,0 +1,43 @@
+html,
+body {
+  height: 100vh;
+  background-color: #f5f8fa;
+}
+
+a {
+  color: none;
+  text-decoration: none;
+}
+
+
+@import "./assets/scss/header.scss";
+@import "./assets/scss/sidebar.scss";
+@import "./assets/scss/dashboard.scss";
+@import "./assets/scss/createUser.scss";
+@import "./assets/scss/scaleton.scss";
+
+@import "./assets/scss/global.scss";
+@import "./assets/scss/student.scss";
+@import "./assets/scss/student_create/address.scss";
+
+@import "./assets/scss/job/job__application.scss";
+@import "./assets/scss/admission/university.scss";
+@import "./assets/scss/cv.scss";
+
+//responsive
+@import "./assets/scss/responsive/dashboard.scss";
+@import "./assets/scss/responsive/student.scss";
+@import "./assets/scss/responsive/sidebar.scss";
+@import "./assets/scss/responsive/university.scss";
+@import "./assets/scss/responsive/job_application.scss";
+@import "./assets/scss/responsive/createUser.scss";
+@import "./assets/scss/responsive/header.scss";
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

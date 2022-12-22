@@ -1,0 +1,8 @@
+export const JobType = {
+  1: "PRELI EXAM LOCATION",
+  2: "PRELI RESULT",
+  3: "WRITTEN EXAM LOCATION",
+  4: "WRITTEN RESULT",
+  5: "VIVA LOCATION",
+  6: "VIVA RESULT",
+};

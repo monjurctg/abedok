@@ -1,0 +1,31 @@
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 991px) {
+  .job__application .job_circulars .circular_1 .middle__div h4 {
+    font-size: 17px;
+}
+  .job__application .job_circulars .circular_1 .middle__div h3 {
+    font-size: 20px;
+}
+  .job__application {
+    width: 100%;
+}
+}
+
+@media only screen and (max-width: 767px) {
+  .job__application .filter__inputs select {
+    margin-bottom: 20px;
+}
+}
+
+@media only screen and (max-width: 575px){
+  .job__application .job_circulars .circular_1 .first__div {
+    flex-direction: column;
+}
+}
+
+@media only screen and (max-width: 440px) {
+
+}
+
+

@@ -1,0 +1,26 @@
+.responsive__logo{
+    width: 25%;
+}
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 991px) {
+    .wrapper .left__side {
+        display: none;
+    }
+    .wrapper .right__side {
+        width: 100%;
+    }
+    .responsive__logo {
+        width: 45%;
+    }
+    .wrapper .right__side .phone__input {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 767px) {}
+
+@media only screen and (max-width: 575px){}
+
+@media only screen and (max-width: 440px) {}

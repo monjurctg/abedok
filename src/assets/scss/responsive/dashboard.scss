@@ -1,0 +1,26 @@
+@media only screen and (max-width: 1200px) {
+  .users img {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .ds__menuBar {
+    display: block !important;
+    position: absolute;
+    left: 22px;
+    top: 10px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+}
+
+@media only screen and (max-width: 575px) {
+  .page-link {
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+}

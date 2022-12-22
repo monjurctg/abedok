@@ -1,0 +1,65 @@
+@media only screen and (max-width: 1400px) {
+  .sidebar {
+    width: 28%;
+  }
+
+  .dashboard .dashbroad__item {
+    width: 72%;
+  }
+  .user__create {
+    width: 72%;
+  }
+  .university {
+    width: 72%;
+  }
+  .user__create .checkboxs {
+    width: 100%;
+  }
+  .job__application {
+    width: 72%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+}
+
+@media only screen and (max-width: 991px) {
+  .sidebar {
+    left: -40%;
+    transition: 0.5s;
+    width: 40%;
+  }
+  .dashboard .dashbroad__item {
+    width: 100%;
+  }
+  .side__menuBar {
+    display: block !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .sidebar {
+    left: -50%;
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .sidebar {
+    left: -100%;
+    width: 100%;
+  }
+  .sidebar .profile__side .profile {
+    flex-direction: column;
+    text-align: center;
+  }
+  .sidebar .profile__side {
+    padding: 20px 25px;
+  }
+  .sidebar .links {
+    margin: 30px;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+}

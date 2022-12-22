@@ -1,0 +1,83 @@
+.user__create {
+  background: #f5f8fa;
+  // width: 85%;
+  width: 80%;
+  padding: 30px 26px;
+  // height: 100vh;
+  h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+
+    letter-spacing: 0.2px;
+
+    color: #000000;
+  }
+  .inputs {
+    // width: 100%;
+    // display: flex;
+    // flex-wrap: wrap;
+    // row-gap: 40px;
+    // column-gap: 35px;
+    input {
+      width: 100%;
+      filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.1));
+      background: #f9f9f9;
+      border: 1px solid #e0e0e0;
+      box-sizing: border-box;
+      border-radius: 5px;
+      padding: 24px;
+    }
+    select {
+      background: #f9f9f9;
+      border: 1px solid #dddddd;
+      box-sizing: border-box;
+      border-radius: 5px;
+      padding: 20px;
+      width: 45%;
+    }
+  }
+  .checkboxs {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    width: 22%;
+    column-gap: 14px;
+    padding: 10px;
+    input[type="checkbox"] {
+      border: 2px solid #000000;
+      width: 24px;
+      height: 24px;
+      // border-radius: 5px;
+      cursor: pointer;
+      // appearance: none;
+      background-color: none;
+      outline: none;
+    }
+    label {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 28px;
+      font-family: "Poppins", sans-serif;
+      /* identical to box height, or 200% */
+
+      letter-spacing: 0.2px;
+
+      color: #000000;
+    }
+
+    input[type="checkbox"]:checked {
+      background-color: none;
+    }
+  }
+}
+.error-page {
+  width: 100%;
+}
+.error-page img {
+  width: 100%;
+  height: 100%;
+}
